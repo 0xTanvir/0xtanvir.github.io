@@ -1,145 +1,896 @@
+
 <!DOCTYPE html>
-<html lang="en-us">
-	<head>
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.83.0-DEV" />
+
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 <meta name="author" content="Tanvir Rahman">
-<meta name="description" content="This is my website">
-<meta name="generator" content="Hugo 0.40.1" />
-<title>My Example Hugo Website &middot; My Example Hugo Website</title>
-<link rel="shortcut icon" href="https://0xtanvir.github.io/images/favicon.ico">
-<link rel="stylesheet" href="https://0xtanvir.github.io/css/style.css">
-<link rel="stylesheet" href="https://0xtanvir.github.io/css/highlight.css">
+<meta name="description" content="I am a senior full stack software engineer. For server/back-end, I write in Golang. For front end, I specialize in Vue.js.">
+
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://0xtanvir.github.io/">
+<meta property="og:title" content="Golang Developer" />
+<meta property="og:image" content="img/who-am-i/user-picture.png" />
+<meta property="og:description" content="I am a senior full stack software engineer. For server/back-end, I write in Golang. For front end, I specialize in Vue.js." />
+
+<meta name="twitter:card" content="website">
+<meta name="twitter:creator" content="Tanvir Rahman">
+<meta name="twitter:title" content="Golang Developer" />
+<meta name="twitter:description" content="I am a senior full stack software engineer. For server/back-end, I write in Golang. For front end, I specialize in Vue.js." />
+<meta name="twitter:image" content="img/who-am-i/user-picture.png" />
 
 
-
-<link rel="stylesheet" href="https://0xtanvir.github.io/css/monosocialiconsfont.css">
-
-
-
-<link href="https://0xtanvir.github.io/index.xml" rel="alternate" type="application/rss+xml" title="My Example Hugo Website" />
-
-
-<meta property="og:title" content="My Example Hugo Website" />
-<meta property="og:description" content="This is my website" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://0xtanvir.github.io/" />
-
-
-
-<meta property="og:updated_time" content="2018-05-17T05:07:32-04:00"/>
-
-
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-58XBZGK');
+</script>
 
 
+<title>Golang Developer</title>
+<style>
+     
+    .rad-fade-in {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in.rad-animate {
+        animation-name: rad-fade-in;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-in-long {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-long-fallback;
+        animation-duration: 8s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-animate {
+        animation-name: rad-fade-in-long;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-down {
+        will-change: opacity, transform;
+        animation-name: rad-fade-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform: translateY(-30px);
+    }
+
+    @keyframes rad-fade-down-fallback {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        75% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fonts-loaded .rad-fade-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    .fonts-loaded .rad-fade-down.rad-animate {
+        animation-name: rad-fade-down;
+        animation-duration: 1.1s;
+    }
+
+    @keyframes rad-fade-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+     
+    .rad-scale-down {
+        will-change: opacity, transform;
+        animation-name: rad-scale-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform-origin: 50% 0;
+    }
+
+    @keyframes rad-scale-down-fallback {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        75% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .fonts-loaded .rad-scale-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: scaleY(0.95);
+    }
+
+    .fonts-loaded .rad-scale-down.rad-animate {
+        animation-name: rad-scale-down;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-scale-down {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+</style>
 
 
+<link rel="stylesheet" href="css/main.css"/>
+
+<link rel="stylesheet" href="css/rad-icons.css"/>
+
+<link rel="stylesheet" href="css/custom.css"/>
 
 
+    
 
 
+</head>
 
-
-<meta itemprop="name" content="My Example Hugo Website">
-<meta itemprop="description" content="This is my website">
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My Example Hugo Website"/>
-<meta name="twitter:description" content="This is my website"/>
-<meta name="twitter:site" content="@https://www.twitter.com/"/>
-
-
-    </head>
 <body>
-    <nav class="main-nav">
-	
 
-	
- 		<a href='/about/'>About</a>
-  	
-
-	
-		<a class="cta" href="https://0xtanvir.github.io/index.xml">Subscribe</a>
-	
-</nav>
-
-    <section id="wrapper">
+	<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="">
+        <span>Tanvir</span>
+        <span>Rahman</span>
         
-	<div class="profile">
-    <section id="wrapper">
-        <header id="header">
-            <a href="https://0xtanvir.github.io/about">
-                <img id="avatar" class="2x" src="https://0xtanvir.github.io/images/avatar.png"/>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#about"
+              >ABOUT</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#portfolio"
+              >PORTFOLIO</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#contact"
+              >CONTACT</a
+            >
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+	
+	
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="rad-showcase__bg">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="img/showcase/showcase.png"
+      data-srcset="img/showcase/showcase.png 1x, img/showcase/showcase@2x.png 2x"
+      alt=""
+    />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+        <h1 class="display-1">
+          Hello, I’m Tanvir.
+          <br />
+          <span
+            >Full Stack Developer</span
+          >
+        </h1>
+        <p class="lead">
+          I will work to turn your ideas into code. If you need a combination of expertise and relevant technologies, I will be glad to be helpful in achieving your goals!
+        </p>
+        <a
+          href="mailto:%20tanvir3080@gmail.com"
+          class="btn btn-primary"
+        >
+          <i class="icon-mail-fill"></i>
+          Contact
+        </a>
+      </div>
+    </div>
+    <div class="row platform-links">
+      <div class="col-12">
+        
+        <a href="https://www.linkedin.com/in/0xtanvir/" target="_blank"
+          ><i class="icon-linkedin-line"></i
+        ></a>
+        
+        <a href="https://github.com/0xTanvir/" target="_blank"
+          ><i class="icon-github-line"></i
+        ></a>
+        
+        <a href="https://twitter.com/0xTanvir/" target="_blank"
+          ><i class="icon-twitter-line"></i
+        ></a>
+        
+        <a href="https://www.youtube.com/c/TanvirRahman/" target="_blank"
+          ><i class="icon-youtube-line"></i
+        ></a>
+        
+        <a href="https://www.instagram.com/0xTanvir/" target="_blank"
+          ><i class="icon-instagram-line"></i
+        ></a>
+        
+        <a href="https://www.facebook.com/0xTanvir/" target="_blank"
+          ><i class="icon-facebook-line"></i
+        ></a>
+        
+        <a href="https://codepen.io/0xTanvir" target="_blank"
+          ><i class="icon-codepen-line"></i
+        ></a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="rad-showcase__bg rad-showcase__bg--mobile">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="img/showcase/showcase-mobile.jpg"
+      alt=""
+    />
+  </div>
+</section>
+
+
+	
+	
+<section class="section rad-animation-group pb-0" id="about">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="about__profile-picture col-12 col-md-6">
+        <img
+          class="lozad img-responsive image-left-overflow"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="img/who-am-i/user-picture.png"
+          data-srcset="img/who-am-i/user-picture.png 1x, img/who-am-i/user-picture@2x.png 2x"
+          alt="Profile Picture"
+        />
+      </div>
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <h2>Who am I?</h2>
+        <p class="lead">
+          <p class="lead"> I am a software engineer with over six years of professional experience in building web applications, devops and data scraping. </p> <p class="lead"> I focus my effort on creating high performance, low resource consumption, and cost-effective solutions tailored to each individual project. </p>
+        </p>
+        <a
+          href="https://www.linkedin.com/in/0xtanvir/"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          <i class="icon-smile-fill"></i>
+          About Me
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+	
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>Education</h2>
+                <div class="row pt-2 pt-md-4">
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2014-2019</div>
+                            <div class="education__title">United International University</div>
+                            <div class="education__degree">
+                                Bachelor of Science (B.Sc.), Computer Science and Engineering(CSE)
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">20010-2012</div>
+                            <div class="education__title">Pangsha Government College</div>
+                            <div class="education__degree">
+                                Higher Secondary, Science
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="experience" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+                
+                <div class="experience">
+                    <div class="experience__date">Nov 2019 - Jan 2021</div>
+                    <div class="experience__title">Software Engineer</div>
+                    <div class="experience__company">Comnoco</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">Aug 2019 - Nov 2019</div>
+                    <div class="experience__title">Back-End Developer</div>
+                    <div class="experience__company">Homeis</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">Jun 2017 - Mar 2019</div>
+                    <div class="experience__title">Golang Developer</div>
+                    <div class="experience__company">TrustCubes</div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-sm-6">
+                <h2>Experience</h2>
+                <p class="lead">
+                    Over 7&#43; years of experience working with companies from all over the world. I design &amp; develop digital products to help businesses and improve people&#39;s lives.
+                </p>
+                <a href="https://www.linkedin.com/in/0xtanvir/" class="btn btn-primary"
+                   target="_blank">
+                    <i class="icon-linkedin-fill"></i>
+                    Linkedin
+                    <i class="icon-arrow-right"></i></a>
+                <a href="https://drive.google.com/file/d/1WiOUHIdMNGknVRYtvrNGKwZTDXckkQ5d/view?usp=sharing" class="btn btn-frameless"
+                   target="_blank">
+                    <i class="icon-profile-fill"></i>
+                    Download My Resume
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      Clients &amp; Works
+    </h2>
+    <div class="row row--padded rad-animation-group rad-fade-down">
+      <div class="col-12">
+        <div class="clients">
+          
+          <div class="clients__item">
+            <a href="https://comnoco.io/">
+              <img
+                class="lozad img-responsive"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                data-src="img/clients/comnoco.png"
+                data-srcset="img/clients/comnoco.png 1x, img/clients/comnoco@2x.png 2x"
+                alt="Comnoco"
+              />
             </a>
-            <h1>Tanvir Rahman</h1>
-            <h2>Programmer &amp; Blogger</h2>
-        </header>
-    </section>
-</div>
+          </div>
+          
+          <div class="clients__item">
+            <a href="https://www.fino.ai/en/">
+              <img
+                class="lozad img-responsive"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                data-src="img/clients/fino.png"
+                data-srcset="img/clients/fino.png 1x, img/clients/fino@2x.png 2x"
+                alt="Fino"
+              />
+            </a>
+          </div>
+          
+          <div class="clients__item">
+            <a href="https://dexecure.com/">
+              <img
+                class="lozad img-responsive"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                data-src="img/clients/dexecure.png"
+                data-srcset="img/clients/dexecure.png 1x, img/clients/dexecure@2x.png 2x"
+                alt="Dexcure"
+              />
+            </a>
+          </div>
+          
+          <div class="clients__item">
+            <a href="https://hellobaru.com/">
+              <img
+                class="lozad img-responsive"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                data-src="img/clients/baru.png"
+                data-srcset="img/clients/baru.png 1x, img/clients/baru@2x.png 2x"
+                alt="Baru"
+              />
+            </a>
+          </div>
+          
+          <div class="clients__item">
+            <a href="https://istox.com/">
+              <img
+                class="lozad img-responsive"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                data-src="img/clients/istox.png"
+                data-srcset="img/clients/istox.png 1x, img/clients/istox@2x.png 2x"
+                alt="iSTOX"
+              />
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Comnoco | Code free Backends and Comms</h3>
+        <p class="lead">
+          No-Code tools to build backend APIs with visual Email &amp; PDF builders. I worked as a golang and vue.js developer.
+        </p>
+        <a href="https://comnoco.io/" class="btn btn-primary"
+          >Visit Website<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="img/works/comnoco.png"
+          data-srcset="img/works/comnoco.png 1x, img/works/comnoco@2x.png 2x"
+          alt="Comnoco | Code free Backends and Comms"
+        />
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down "
+    >
+      
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-right-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="img/works/fino.png"
+          data-srcset="img/works/fino.png 1x, img/works/fino@2x.png 2x"
+          alt="German Finance Web Application"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>German Finance Web Application</h3>
+        <p class="lead">
+          The German Finance &#43; Technology Association is the leading FinTech hub in Germany.
+        </p>
+        <a href="https://www.fino.ai/en/" class="btn btn-primary"
+          >Visit Website<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Dexecure</h3>
+        <p class="lead">
+          Dexecure automatically transforms websites and makes them lightning fast, leading to increased pages views and better user experiences.
+        </p>
+        <a href="https://dexecure.com/" class="btn btn-primary"
+          >Visit Website<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-forward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="img/works/dexecure.png"
+          data-srcset="img/works/dexecure.png 1x, img/works/dexecure@2x.png 2x"
+          alt="Dexecure"
+        />
+      </div>
+      
+    </div>
+    
+  </div>
+</section>
 
 
+	
+	
+<section class="section rad-animation-group section--border-bottom">
+    <div class="container">
+        <h2 class="rad-fade-down">Testimonials</h2>
+        <div class="row row--padded mb-0 rad-fade-down">
+            
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <i class="icon-quote"></i>
+                <p>
+                    Tanvir is a hard worker and very competent Go developer. He worked with us on a big long running project involving and we are grateful for his help.
+                </p>
+                <div class="testimonial__author">
+                    <img class="lozad testimonial__author-image"
+                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                         data-src="img/testimonials/stuart-malt.png"
+                         data-srcset="img/testimonials/stuart-malt.png 1x, img/testimonials/stuart-malt@2x.png 2x"
+                         alt="Stuart Malt"/>
+                    <div class="testimonial__author-info">
+                        <h4>Stuart Malt</h4>
+                        <span>Comnoco, Founder</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <i class="icon-quote"></i>
+                <p>
+                    I appreciated working with Tanvir. He exceeded my expectations with the initial project milestone. And when I asked him if we could change the scope of the project, he agreed to the change with a reasonable increase in price. I look forward to working with him again soon.
+                </p>
+                <div class="testimonial__author">
+                    <img class="lozad testimonial__author-image"
+                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                         data-src="img/testimonials/tino-go.jpg"
+                         data-srcset="img/testimonials/tino-go.jpg 1x, img/testimonials/tino-go@2x.jpg 2x"
+                         alt="Tino Go"/>
+                    <div class="testimonial__author-info">
+                        <h4>Tino Go</h4>
+                        <span>Baru, CEO &amp; Founder</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <i class="icon-quote"></i>
+                <p>
+                    Tanvir is a great software engineer with superior engineering and communication skills. Can highly recommend him.
+                </p>
+                <div class="testimonial__author">
+                    <img class="lozad testimonial__author-image"
+                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                         data-src="img/testimonials/manuel-jaeger.jpg"
+                         data-srcset="img/testimonials/manuel-jaeger.jpg 1x, img/testimonials/manuel-jaeger@2x.jpg 2x"
+                         alt="Manuel Jaeger"/>
+                    <div class="testimonial__author-info">
+                        <h4>Manuel Jaeger</h4>
+                        <span>iSTOX, Co-founder</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <i class="icon-quote"></i>
+                <p>
+                    Excellent work.Tanvir is very professional and competent. He was very responsive and the code was pretty good too. Would recommend him for any Golang related projects.
+                </p>
+                <div class="testimonial__author">
+                    <img class="lozad testimonial__author-image"
+                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                         data-src="img/testimonials/inian-parameshwaran.jpg"
+                         data-srcset="img/testimonials/inian-parameshwaran.jpg 1x, img/testimonials/inian-parameshwaran@2x.jpg 2x"
+                         alt="Inian Parameshwaran"/>
+                    <div class="testimonial__author-info">
+                        <h4>Inian Parameshwaran</h4>
+                        <span>Dexecure, Founder</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <i class="icon-quote"></i>
+                <p>
+                    Outstanding work! Blew my deadline away completely, hope to work together again soon!
+                </p>
+                <div class="testimonial__author">
+                    <img class="lozad testimonial__author-image"
+                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                         data-src="img/testimonials/derek-hill.jpg"
+                         data-srcset="img/testimonials/derek-hill.jpg 1x, img/testimonials/derek-hill@2x.jpg 2x"
+                         alt="Derek Hill"/>
+                    <div class="testimonial__author-info">
+                        <h4>Derek Hill</h4>
+                        <span>eBench, Founder</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="contact" class="section section--contact pt-0">
+    <div class="container">
+        <div class="contact">
+            <h2>Contact</h2>
+            <div class="row pt-2">
+                <div class="col-12 col-lg-7">
+                    <form action="#" method="">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="" id="full_name"
+                                       placeholder="Full Name"/>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="" id="email"
+                                       placeholder="Email Address"/>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <textarea name="" id="message"
+                                          cols="30" rows="3" placeholder="Type Your Message Here"></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="icon-mail-fill"></i>
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-5 contact__info">
+                    <h4>Phone Number</h4>
+                    <span>&#43;8801750-943080</span>
+                    <h4>Email</h4>
+                    <span><a href="mailto:tanvir3080@gmail.com">tanvir3080@gmail.com</a></span>
+                    <h4></h4>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+
+	
+
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__left">
+      <div class="footer__copy">
         
-	<ul id="post-list">
-    
-        <li>
-            <a href='/post/first-post/'><aside class="dates">May 17 2018</aside></a>
-            <a href='/post/first-post/'>First Post<h2></h2></a>
+      </div>
+    </div>
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
         </li>
-    
-</ul>
-
-	<nav id="post-nav">
-    
-</nav>
-
-
-
-        <footer id="footer">
-    
-        <div id="social">
-
-	
-	
-    
-    <a class="symbol" href="https://www.dribbble.com/">
-        circledribble
-    </a>
-    
-    <a class="symbol" href="https://www.facebook.com/">
-        circlefacebook
-    </a>
-    
-    <a class="symbol" href="https://www.github.com/">
-        circlegithub
-    </a>
-    
-    <a class="symbol" href="https://www.twitter.com/">
-        circletwitterbird
-    </a>
-    
-
-
-</div>
-
-    
-    <p class="small">
-    
-        © Copyright 2018 Tanvir Rahman
-    
-    </p>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="">PORTFOLIO</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="">CONTACT</a>
+        </li>
+        
+      </ul>
+    </div>
+    </div>
+  </div>
 </footer>
 
-    </section>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://0xtanvir.github.io/js/main.js"></script>
-<script src="https://0xtanvir.github.io/js/highlight.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
-
-
-
+    <script src='js/rad-animations.js'></script>
+<script src='js/library/lozad.min.js'></script>
+<script>
+  window.addEventListener("load", function() {
+    var observer = window.lozad(".lozad", {
+      rootMargin: window.innerHeight / 2 + "px 0px",
+      threshold: 0.01
+    }); 
+    observer.observe();
+  });
+</script>
+<script src='js/library/jquery-3.3.1.slim.min.js'></script>
+<script src='js/library/bootstrap.min.js'></script>
+<script src='js/sticky-header.js'></script>
+<script src='js/library/smooth-scroll.polyfills.min.js'></script>
+<script src='js/library/fontfaceobserver.js'></script>
+<script>
+  (function(w) {
+    
+    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+    var fontA = new w.FontFaceObserver("Inter", {
+      weight: 300
+    });
+    var fontB = new w.FontFaceObserver("Inter", {
+      weight: 400
+    });
+    var fontC = new w.FontFaceObserver("Inter", {
+      weight: 500
+    });
+    var fontD = new w.FontFaceObserver("Inter", {
+      weight: 600
+    });
+    var fontE = new w.FontFaceObserver("Inter", {
+      weight: 700
+    });
+    var fontF = new w.FontFaceObserver("Inter", {
+      weight: 900
+    });
+    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function() {
+      w.document.documentElement.className += " fonts-loaded";
+    });
+  })(this);
+</script>
+<script>
+  const scroll = new SmoothScroll('a[href*="#"]');
+    $('a.nav-link').on('click', () => {
+      const navbar = $('.navbar-collapse');
+      if (navbar && navbar.hasClass('show')) {
+        $('.navbar-toggler').click();
+      }
+    })
+</script>
 
 </body>
+
 </html>
