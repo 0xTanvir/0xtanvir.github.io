@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+sitemap:https://0xtanvir.github.io/sitemap.xml
